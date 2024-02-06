@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.heading {
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: -0.2926828861236572px;
+    color: #1E0E62;
+}
+
+.text-1 {
+    font-family: DM Sans;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 198px;
+    height: 78px;
+    top: 140px;
+    left: 117px;
+    margin-top: 35px;
+    color: #15143966;
+}
+
+.text-2 {
+    font-family: DM Sans;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1E0E62;
+    text-transform: capitalize;
+    width: fit-content;
+}
+
+.cursor-1 {
+    cursor: pointer;
+}
+
+.margin-top-35 {
+    margin-top: 35px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.gap-180 {
+    gap: 180px;
+}
+
+.flex-w {
+    flex-wrap: wrap;
+}
+
+.wv {
+    width: 100%;
+}
+
+.input-box {
+    width: 230px;
+    height: 40px;
+    border: 2px solid #EBEAED;
+    border-radius: 100px;
+    padding-left: 15px;
+    outline: none;
+    color: #15143966;
+}
+
+.input-box::placeholder {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #15143966;
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px solid #25DAC5;
+    background: #25DAC5;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.icon {
+    gap: 40px;
+}
+
+.line {
+    width: 1168px;
+    height: 2px;
+    top: 428px;
+    left: 117px;
+    border: 2px;
+    opacity: 0.5px;
+    border: 2px solid #EBEAED;
+}
+
+.d-1 {
+    font-family: DM Sans;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #15143966;
+    text-align: center;
+}
+
+.h-2 {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1E0E62;
+}
